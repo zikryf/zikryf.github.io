@@ -1,1 +1,19 @@
 /* main color palette */
+:root {
+    --background-color: #101a25;
+    --text-color: #b19e67;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.main-side-bar {
+    background-color: var(--text-color);
+    width: 250px;
+}
+
+.ms-n3 {
+    margin-left: -0.75rem !important;
+}
